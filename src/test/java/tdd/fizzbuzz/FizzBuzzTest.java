@@ -19,7 +19,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_fizz_when_count_off_given_multiple_of_three_order_number() {
+    void should_return_Fizz_when_count_off_given_multiple_of_three_order_number() {
         //given
         int orderNumber = 3;
 
