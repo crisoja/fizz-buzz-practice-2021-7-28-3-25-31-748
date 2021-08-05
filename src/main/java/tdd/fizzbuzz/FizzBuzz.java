@@ -3,6 +3,7 @@ package tdd.fizzbuzz;
 public class FizzBuzz {
         private static final String FIZZ = "Fizz";
         private static final String BUZZ = "Buzz";
+        private static final String WHIZZ = "Whizz";
     public String countOff(int orderNumber) {
 
         if(orderNumber == 3){
@@ -12,7 +13,7 @@ public class FizzBuzz {
             return BUZZ;
         }
         else if(orderNumber == 7){
-            return "Whizz";
+            return WHIZZ;
         }
         else if(orderNumber == 15){
             return FIZZ + BUZZ;
