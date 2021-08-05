@@ -1,10 +1,11 @@
 package tdd.fizzbuzz;
 
 public class FizzBuzz {
+        private static final String FIZZ = "Fizz";
     public String countOff(int orderNumber) {
 
         if(orderNumber == 3){
-            return "Fizz";
+            return FIZZ;
         }
         return String.valueOf(orderNumber);
     }
