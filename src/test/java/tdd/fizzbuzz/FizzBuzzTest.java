@@ -30,4 +30,19 @@ public class FizzBuzzTest {
         //then
         assertThat(result).isEqualTo("Fizz");
     }
+
+    @Test
+    void should_return_Buzz_when_count_off_given_multiple_of_five_order_number() {
+        int orderNumber = 5;
+
+        //when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.countOff(orderNumber);
+
+        //then
+        assertThat(result).isEqualTo("Buzz");
+
+        //then
+        assertThat(result).isEqualTo("Buzz");
+    }
 }
