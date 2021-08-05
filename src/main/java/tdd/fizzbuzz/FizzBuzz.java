@@ -12,7 +12,7 @@ public class FizzBuzz {
             return BUZZ;
         }
         else if(orderNumber == 15){
-            return "FizzBuzz";
+            return FIZZ + BUZZ;
         }
         return String.valueOf(orderNumber);
     }
